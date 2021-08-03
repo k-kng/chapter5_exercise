@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-list {
+  /* nav-list-itemを右端→中央に寄せてくれる */
+  text-align: center;
+  /* nav要素からnav-list要素の間を空けてくれる(padding: 上下　左右) */
+  padding: 15px 0;
+  margin: 0 auto;
+  /* nav-list要素に線を引く(どこに：太さ(px)　線を(solid)　何色で(#******)) */
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
+}
+
+.nav-list-item {
+  /* nav-list-itemの要素にスタイル(装飾)を指定する(list-style: none(何もしない);) */
+  list-style: none;
+  /* nav-listを縦→横並びに変えてくれる */
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main {
+  width: 800px;
+  margin: 50px auto;
+  background-color: aqua;
+}
